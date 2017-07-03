@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class C 
+{
+    //Variables del objeto
+    public String in;
+    
+    //Constructor
+    public C()
+    {
+        String in = "";
+    }
+    
+    //C.out
+    public static void out(String out)
+    {
+        System.out.println(out);
+    }
+    
+    //C.in
+    public static String ins()
+    {
+        Scanner input = new Scanner(System.in);
+        String in = input.nextLine();
+        return in;
+    }
+    
+    //C.in for ints
+    public static int ints()
+    {
+        Scanner input = new Scanner(System.in);
+        int in = input.nextInt();
+        return in;
+    }
+}
